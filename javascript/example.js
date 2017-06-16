@@ -21,9 +21,13 @@ var gridOptions = {
     }
 };
 
+// used in our jasmine test
+function selectAllRows() {
+    gridOptions.api.selectAll();
+}
+
 // wait for the document to be loaded, otherwise ag-Grid will not find the div in the document.
 document.addEventListener("DOMContentLoaded", function () {
-
     // lookup the container we want the Grid to use
     var eGridDiv = document.querySelector('#myGrid');
 
