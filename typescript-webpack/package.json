@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config config/webpack.dev.js --inline --progress --port 8080",
+    "start": "webpack-dev-server --config config/webpack.dev.js --inline --progress --port 8888",
     "build": "webpack --config config/webpack.prod.js --progress --profile --bail"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ag-grid": "12.0.0"
+    "ag-grid": "12.0.0",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6"
   },
   "devDependencies": {
     "css-loader": "0.28.4",

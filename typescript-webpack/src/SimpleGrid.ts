@@ -1,6 +1,5 @@
+import "./styles.scss";
 import {Grid, GridOptions} from "ag-grid/main";
-import "ag-grid/dist/styles/ag-grid.css";
-import "ag-grid/dist/styles/theme-fresh.css";
 
 // for ag-grid-enterprise users only
 //import 'ag-grid-enterprise/main';
