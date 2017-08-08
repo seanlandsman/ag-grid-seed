@@ -1,0 +1,7 @@
+// Customize the look and feel of the grid with Sass variables
+// Up-to-date list of variables is available in the source code: https://github.com/ag-grid/ag-grid/blob/latest/src/styles/theme-fresh.scss 
+$ag-border-1: 1px solid red;
+$ag-root-font-size: 10px;
+
+@import "~ag-grid/src/styles/ag-grid.scss";
+@import "~ag-grid/src/styles/theme-fresh.scss";
