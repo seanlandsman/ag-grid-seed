@@ -1,5 +1,5 @@
 import "./styles.scss";
-import {Grid, GridOptions} from "ag-grid/main";
+import {Grid, GridOptions} from "ag-grid";
 
 // for ag-grid-enterprise users only
 //import 'ag-grid-enterprise/main';
@@ -9,6 +9,9 @@ class SimpleGrid {
 
     constructor() {
         this.gridOptions = {
+            enableSorting: true,
+            enableFilter: true,
+            suppressMenuHide: true,
             columnDefs: this.createColumnDefs(),
             rowData: this.createRowData()
         };

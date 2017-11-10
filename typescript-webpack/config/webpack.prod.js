@@ -33,6 +33,13 @@ module.exports = {
             {
                 test: /\.scss$/,
                 loader: ExtractTextPlugin.extract({fallback: 'style-loader', use: [ 'css-loader?sourceMap=true', 'sass-loader?sourceMap=true' ]})
+            },
+            {
+                test: /\.svg$/,
+                use: [
+                    { loader: 'url-loader', options: { limit: 20000 }},
+                    { loader: require.resolve('ag-grid/src/styles/svg-loader') }
+                ]
             }
         ]
     },
