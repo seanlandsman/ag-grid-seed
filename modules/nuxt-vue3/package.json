@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "ag-grid-nuxt-vue3",
   "private": true,
   "type": "module",
   "scripts": {
@@ -19,5 +19,8 @@
     "@ag-grid-community/vue3": "latest",
     "@ag-grid-enterprise/core": "latest",
     "@ag-grid-enterprise/status-bar": "latest"
-  }
+  },
+  "author": "Sean Landsman <sean@thelandsmans.com>",
+  "license": "MIT",
+  "homepage": "https://www.ag-grid.com/"
 }

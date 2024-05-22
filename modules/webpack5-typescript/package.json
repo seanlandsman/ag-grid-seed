@@ -8,9 +8,6 @@
     "start": "npm run clean && webpack-dev-server --progress --port 8080 --mode development",
     "build": "npm run clean && webpack --mode production"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.8.1",
     "html-webpack-plugin": "^5.5.1",
@@ -30,5 +27,8 @@
     "@ag-grid-community/styles": "latest",
     "@ag-grid-enterprise/core": "latest",
     "@ag-grid-enterprise/status-bar": "latest"
-  }
+  },
+  "author": "Sean Landsman <sean@thelandsmans.com>",
+  "license": "MIT",
+  "homepage": "https://www.ag-grid.com/"
 }

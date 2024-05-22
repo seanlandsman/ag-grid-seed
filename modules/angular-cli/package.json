@@ -40,5 +40,8 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.4.2"
-  }
+  },
+  "author": "Sean Landsman <sean@thelandsmans.com>",
+  "license": "MIT",
+  "homepage": "https://www.ag-grid.com/"
 }

@@ -17,5 +17,8 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
     "vite": "^5.2.0"
-  }
+  },
+  "author": "Sean Landsman <sean@thelandsmans.com>",
+  "license": "MIT",
+  "homepage": "https://www.ag-grid.com/"
 }
