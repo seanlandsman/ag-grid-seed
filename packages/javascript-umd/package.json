@@ -1,0 +1,8 @@
+{
+  "name": "ag-grid-umd",
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {
+    "ag-grid-enterprise": "latest"
+  }
+}
