@@ -1,19 +1,7 @@
-## Quickstart seed projects for on getting up and running with ag-Grid 
+## Quickstart seed projects for on getting up and running with ag-Grid
 
-#### For QuickStart projects with ag-Grid and Angular please see: https://github.com/ceolter/ag-grid-angular-seed
-#### For QuickStart projects with ag-Grid and React please see: https://github.com/ceolter/ag-grid-react-seed
-
-## For the JavaScript Seed:
-* cd javascript
-* Navigate to index.html from your chosen browser, or:
-** Windows: start index.html
-** OSX: open index.html
-
-## For the other seed projecs, navigate to the build tool of your choice: 
-* TypeScript & Webpack
-
-## Then run the following to build and run the seed projects:
-
-* npm install
-* npm start         <- development build
-* npm run build     <- production/aot build
+## How to use:
+* Navigate to the build tool you're interested in (i.e. `cd angular-cli`)
+* `npm install`
+* Development Build: `npm start`
+* Production Build (for all projects bar `javascript-umd`): `npm run build`
