@@ -1,5 +1,5 @@
 {
-  "name": "ag-grid-umd",
+  "name": "ag-grid-packages-umd",
   "private": true,
   "version": "0.0.0",
   "dependencies": {
